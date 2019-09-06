@@ -4,17 +4,19 @@ public class Conta {
     private String titular;
     private double saldo;
     private double limite;
-    private int totalDeContas;
+    private static int totalDeContas;
 
-    public Conta (String titular, double saldo, double limite, int totalDeContas) {
+
+    public Conta () {
+        Conta.totalDeContas = Conta.totalDeContas + 1;
         this.titular = titular;
         this.saldo = saldo;
         this.limite = limite;
         this.totalDeContas = totalDeContas;
     }
 
-    public Conta() {
-
+    public static int getTotalDeContas() {
+        return totalDeContas;
     }
 
     public String getTitular() {
@@ -38,9 +40,6 @@ public class Conta {
         return limite;
     }
 
-    public void setLimite(double limite) {
-        this.limite = limite;
-    }
 
     public void saca(double v){
         if (v < getSaldo() && v > 0){
@@ -65,6 +64,6 @@ public class Conta {
     }
 
     public void status(){
-        System.out.println("Conta: " + getTitular() + " Saldo: " + getSaldo() + " Limite: "+ getLimite());
+        System.out.println("Conta: " + getTitular() + " Saldo: " + getSaldo() + " Limite: "+ getLimite() + " Total de contas: " + getTotalDeContas());
     }
 }
