@@ -36,5 +36,9 @@
         public void setConta(Conta conta) {
             this.conta = conta;
         }
+
+        public String toString(){
+            return "Tipo: " + this.conta + "nome: "+ this.nome + "CPF: " + this.cpf;
+        }
     }
 
