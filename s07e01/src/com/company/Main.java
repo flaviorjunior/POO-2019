@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Scanner scan = new Scanner(System.in);
 
         Topic topic = new Topic(0, 0);
@@ -34,6 +35,18 @@ class Main {
                 System.out.println("fail: comando invalido");
             }
         }
+=======
+        Topic topic = new Topic(5, 2);
+        System.out.println (topic);
+        topic.inserir("xurupita", 18);
+        topic.inserir("Ze_das_tapioca", 68);
+        topic.inserir("Maria_Izolda", 69);
+        topic.inserir("Elvis", 34);
+        topic.inserir("Fulanim", 24);
+        topic.inserir("Sicranim", 12);
+        System.out.println (topic);
+
+>>>>>>> 913b6b5b5d73583f32b70748a3412c0fce1dc67c
 
     }
 
