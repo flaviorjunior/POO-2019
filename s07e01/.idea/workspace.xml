@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a5bb90-1798-4d27-b780-c320f1338ccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../s05e01/out/production/Banco/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../s05e01/out/production/Banco/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../s05e01/out/production/Banco/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/../s05e01/out/production/Banco/ContaPoupanca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../s05e01/out/production/Banco/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../s05e01/out/production/Banco/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../s05e01/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s05e01/src/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../s05e01/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s05e01/src/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../s05e01/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s05e01/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Topic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Topic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -70,14 +70,14 @@ public class Topic {
                         return true;
                     }
                 }
-                System.out.println("Topic lotada até o talo");
+                System.out.println("Topic lotada ou passageiro já está nela");
         }
         return false;
     }
 
-    public void remover (Cliente cliente){
+    public void remover (String nome){
         for (Cliente cli : cadeiras){
-            if(cli.getNome() == cliente.getNome()){
+            if(cli.getNome() == nome){
                 cadeiras.remove(cli);
             }
         }
